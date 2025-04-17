@@ -1,0 +1,73 @@
+#contact{
+font-size: 28px;
+scroll-margin-top: 50px;
+font-size: 28px;
+text-align: center;
+margin: 0px 0px 30px;
+}
+
+#contact::after{
+    content: "";
+    position: absolute;
+    translate: 50px 20px;
+    width: 800px;
+    height: 2px;
+    background-color: #43D9BD;
+}
+
+#contact::before{
+        content: "";
+        position: absolute;
+        translate: -850px 20px;
+        width: 800px;
+        height: 2px;
+        background-color: #43D9BD;
+    
+}
+
+.formularioContacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-left,
+  .form-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-right textarea {
+    height: 100%; /* Asegura que el textarea ocupe toda la altura de la columna izquierda */
+    min-height: 150px; /* Por si hay poco contenido */
+    resize: vertical;
+  }
+  
+  input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #023E73;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  button:hover {
+    background-color: #43D9BD;
+    transition: all 0.2s ease;
+  }
+  

@@ -1,0 +1,49 @@
+  <div class="footer">
+    <div class="container grid">
+      <div class="col-12">
+        <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+  </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/scripts/script.js"></script>
+  
+  <script>
+  document.getElementById("contact-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const data = {
+      nombre: form.nombre.value,
+      apellido: form.apellido.value,
+      email: form.email.value,
+      mensaje: form.mensaje.value,
+    };
+
+    try {
+      const response = await fetch("http://localhost:3000/enviar-mensaje", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+      alert(result.message);
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Ocurrió un error. Intenta de nuevo.");
+    }
+  });
+  </script>
+
+
+
+  </body>
+</html>

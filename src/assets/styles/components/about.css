@@ -1,0 +1,25 @@
+.aboutSection{
+    margin: 0px 0px 100px;
+}
+
+
+#about{
+    margin: 0px 30px 50px;
+    font-size: 28px;
+    scroll-margin-top: 50px;
+}
+
+#about::after{
+    content: "";
+    position: absolute;
+    translate: 50px 20px;
+    width: 1500px;
+    height: 2px;
+    background-color: #43D9BD;
+}
+
+.aboutText{
+    margin: 0px 130px;
+    color: #023E73;
+    font-size: 20px;
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "nombre": "Ejemplo 1",
+    "imagen": "https://picsum.photos/800/400"
+  },
+  {
+    "nombre": "Ejemplo 2",
+    "imagen": "https://picsum.photos/800/200"
+  },
+  {
+    "nombre": "Ejemplo 3",
+    "imagen": "https://picsum.photos/800/700"
+  },
+  {
+    "nombre": "Ejemplo 4",
+    "imagen": "https://picsum.photos/800/100"
+  },
+  {
+    "nombre": "Ejemplo 5",
+    "imagen": "https://picsum.photos/800/900"
+  },
+  {
+    "nombre": "Ejemplo 6",
+    "imagen": "https://picsum.photos/700/900"
+  },
+  {
+    "nombre": "Ejemplo 7",
+    "imagen": "https://picsum.photos/900/900"
+  },
+  {
+    "nombre": "Ejemplo 8",
+    "imagen": "https://picsum.photos/300/400"
+  }
+]
