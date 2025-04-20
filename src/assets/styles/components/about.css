@@ -1,25 +1,14 @@
 .aboutSection{
-    margin: 0px 0px 100px;
+    margin-bottom: var(--spacer-2xl);
 }
 
 
 #about{
-    margin: 0px 30px 50px;
-    font-size: 28px;
+    font-size: var(--text-subheader);
     scroll-margin-top: 50px;
 }
 
-#about::after{
-    content: "";
-    position: absolute;
-    translate: 50px 20px;
-    width: 1500px;
-    height: 2px;
-    background-color: #43D9BD;
-}
-
 .aboutText{
-    margin: 0px 130px;
-    color: #023E73;
-    font-size: 20px;
+    color: var(--color-text);
+    font-size: var(--text-base);
 }

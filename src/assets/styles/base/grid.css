@@ -3,6 +3,8 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
 }
+
+
 .container {
   padding-left: var(--container-padding);
   padding-right: var(--container-padding);
@@ -12,9 +14,11 @@ body {
   width: 100%;
 }
 
+
+
 .grid {
   display: grid;
   grid-template-columns: var(--grid-main);
   grid-auto-rows: min-content;
-  grid-gap: 0 var(--grid-gap);
+  grid-gap: var(--grid-gap);
 }

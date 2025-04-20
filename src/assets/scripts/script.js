@@ -2,9 +2,9 @@
 // Titulo cambiante
 const frases = [
   "desarrollador web. ",
-  "amante de la pizza estilo napolitano. ",
+  "amante de la pizza. ",
   "gamer. ",
-  "pescador. ",
+  "estudiante de ingenieria. ",
   "fanático del café. "
 ];
 

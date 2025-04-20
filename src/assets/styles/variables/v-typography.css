@@ -4,7 +4,7 @@ html {
   --text-2xs: 10px;
   --text-xs: 12px;
   --text-s: 14px;
-  --text-m: 16px;
+  --text-m: 20px;
   --text-l: 18px;
   --text-xl: 20px;
   --text-2xl: 24px;
@@ -24,8 +24,85 @@ html {
   --text-jumbo: var(--text-6xl);
 }
 
+@media (max-width: 0px){
 
+  html {
+
+    /* Variables tipográficas */
+    --text-2xs: 6px;
+    --text-xs: 8px;
+    --text-s: 10px;
+    --text-m: 12px;
+    --text-l: 14px;
+    --text-xl: 16px;
+    --text-2xl: 24px;
+    --text-3xl: 24px;
+    --text-4xl: 32px;
+    --text-5xl: 44px;
+    --text-6xl: 60px;
   
+  }  
+}
+
+@media (max-width:0px){
+
+  html {
+
+    /* Variables tipográficas */
+    --text-2xs: 2px;
+    --text-xs: 4px;
+    --text-s: 6px;
+    --text-m: 8px;
+    --text-l: 10px;
+    --text-xl: 12px;
+    --text-2xl: 16px;
+    --text-3xl: 20px;
+    --text-4xl: 28px;
+    --text-5xl: 40px;
+    --text-6xl: 56px;
+  }  
+}
+
+@media (max-width: 10px){
+
+  html {
+
+    /* Variables tipográficas */
+    --text-2xs: 0px;
+    --text-xs: 0px;
+    --text-s: 2px;
+    --text-m: 10px;
+    --text-l: 6px;
+    --text-xl: 8px;
+    --text-2xl: 20px;
+    --text-3xl: 16px;
+    --text-4xl: 24px;
+    --text-5xl: 30px;
+    --text-6xl: 52px;
+  
+  }  
+}
+
+@media (max-width: 320px){
+
+  html {
+
+    /* Variables tipográficas */
+    --text-2xs: 0px;
+    --text-xs: 0px;
+    --text-s: 2px;
+    --text-m: 4px;
+    --text-l: 6px;
+    --text-xl: 8px;
+    --text-2xl: 12px;
+    --text-3xl: 16px;
+    --text-4xl: 24px;
+    --text-5xl: 36px;
+    --text-6xl: 52px;
+  }  
+}
+
+
 .oswald {
   color: #43D9BD;
   font-family: "Oswald", sans-serif;

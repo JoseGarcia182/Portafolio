@@ -34,15 +34,6 @@ html{
 scroll-behavior: smooth;
 }
 
-body {
-background-color: var(--color-background);
-}
 
-.filoCode {
-text-align: center;
-margin: 0 200px 220px;
-font-size: 20px;
-font-weight: bold;
-color: var(--color-text);
-}
+
  

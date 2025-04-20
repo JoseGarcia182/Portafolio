@@ -1,73 +1,81 @@
-#contact{
-font-size: 28px;
+/*#contact{
 scroll-margin-top: 50px;
-font-size: 28px;
+font-size: var(--text-subheader);
 text-align: center;
-margin: 0px 0px 30px;
+}
+/* Contenedor principal del formulario */
+/*.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-#contact::after{
-    content: "";
-    position: absolute;
-    translate: 50px 20px;
-    width: 800px;
-    height: 2px;
-    background-color: #43D9BD;
+/* Contenedor izquierdo (Nombre, Apellido, Email) */
+/*.form-left {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-#contact::before{
-        content: "";
-        position: absolute;
-        translate: -850px 20px;
-        width: 800px;
-        height: 2px;
-        background-color: #43D9BD;
-    
+/* Contenedor derecho (Mensaje) */
+/*.form-right {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.formularioContacto {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .form-left,
-  .form-right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .form-right textarea {
-    height: 100%; /* Asegura que el textarea ocupe toda la altura de la columna izquierda */
-    min-height: 150px; /* Por si hay poco contenido */
-    resize: vertical;
-  }
-  
-  input, textarea {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 1rem;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 12px 24px;
-    background-color: #023E73;
-    color: white;
-    font-size: 1rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    align-self: flex-end;
-  }
-  
-  button:hover {
-    background-color: #43D9BD;
-    transition: all 0.2s ease;
-  }
-  
+/* Grupo individual de campo */
+/*.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: var(--text-base);
+  margin-bottom: 5px;
+  color: #003366; /* Azul oscuro */
+/*}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Campo de texto grande (mensaje) */
+/*.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* Contenedor del botón enviar */
+/*.submit-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Botón de enviar */
+/*.sendButton {
+  background-color: #003366;
+  color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sendButton:hover {
+  background-color: #00509e;
+}
