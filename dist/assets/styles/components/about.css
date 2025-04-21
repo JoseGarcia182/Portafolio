@@ -1,0 +1,17 @@
+.aboutSection{
+    margin-bottom: var(--spacer-2xl);
+}
+
+
+#about{
+    font-size: var(--text-subheader);
+    scroll-margin-top: 50px;
+    margin-bottom: var(--spacer-l );
+}
+
+.aboutText{
+    color: var(--color-text);
+    font-size: var(--text-base);
+    line-height: var(--spacer-l);
+    font-weight: 500;
+}

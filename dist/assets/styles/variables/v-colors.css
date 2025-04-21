@@ -1,0 +1,16 @@
+html{
+
+    --blue-5: #1f558c;
+    --blue-4: #194f85;
+    --blue-3: #12497f;
+    --blue-2: #0a4479;
+    --blue-1: #023E73;
+
+
+
+    --color-text:   var(--blue-1);
+    --color-text-hover: var(--blue-5);
+    --color-background: #f2f2f2;
+    --color-tittles: #43D9BD;
+    --color-warning: #FF5353;
+}

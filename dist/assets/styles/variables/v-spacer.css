@@ -1,0 +1,58 @@
+html {
+  /* Variables de espaciado */
+  --spacer-2xs: 2px;
+  --spacer-xs: 5px;
+  --spacer-s: 10px;
+  --spacer-m: 20px;
+  --spacer-l: 40px;
+  --spacer-xl: 80px;
+  --spacer-2xl: 160px;
+}
+
+@media (max-width: 900px) {
+
+html{
+  --spacer-2xs: 2px;
+  --spacer-xs: 4px;
+  --spacer-s: 8px;
+  --spacer-m: 17.5px;
+  --spacer-l: 35px;
+  --spacer-xl: 40px;
+  --spacer-2xl: 100px;
+}}
+
+@media (max-width: 700px) {
+
+  html{
+    --spacer-2xs: 2px;
+    --spacer-xs: 4px;
+    --spacer-s: 7.5px;
+    --spacer-m: 15px;
+    --spacer-l: 30px;
+    --spacer-xl: 60px;
+    --spacer-2xl: 120px;
+  }}
+
+@media (max-width: 500px) {
+
+    html{
+      --spacer-2xs: 2px;
+      --spacer-xs: 4px;
+      --spacer-s: 6px;
+      --spacer-m: 12.5px;
+      --spacer-l: 25px;
+      --spacer-xl: 50px;
+      --spacer-2xl: 100px;
+    }}
+
+@media (max-width: 320px) {
+
+      html{
+        --spacer-2xs: 2px;
+        --spacer-xs: 4px;
+        --spacer-s: 5px;
+        --spacer-m: 10px;
+        --spacer-l: 20px;
+        --spacer-xl: 40px;
+        --spacer-2xl: 80px;
+      }}

@@ -1,0 +1,82 @@
+#contact{
+scroll-margin-top: 50px;
+font-size: var(--text-subheader);
+text-align: center;
+margin-bottom: var(--spacer-l);
+}
+/* Contenedor principal del formulario */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Contenedor izquierdo (Nombre, Apellido, Email) */
+.form-left {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Contenedor derecho (Mensaje) */
+.form-right {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Grupo individual de campo */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: var(--text-base);
+  margin-bottom: 5px;
+  color: #003366; /* Azul oscuro */
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Campo de texto grande (mensaje) */
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* Contenedor del botón enviar */
+.submit-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Botón de enviar */
+.sendButton {
+  background-color: #003366;
+  color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sendButton:hover {
+  background-color: #00509e;
+}
