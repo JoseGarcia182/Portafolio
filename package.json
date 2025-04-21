@@ -10,8 +10,7 @@
     "eleventy:default": "npx eleventy",
     "eleventy:watch": "npx eleventy --watch",
     "serve": "light-server -c .lightserverrc",
-    "dev": "npm-run-all clean eleventy:default --parallel eleventy:watch serve --print-label",
-    "build1": "run-s clean eleventy:default --print-label"
+    "dev": "npm-run-all clean eleventy:default --parallel eleventy:watch serve --print-label"
   },
   "repository": {
     "type": "git",
