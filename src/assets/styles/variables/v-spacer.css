@@ -17,8 +17,8 @@ html{
   --spacer-s: 8px;
   --spacer-m: 17.5px;
   --spacer-l: 35px;
-  --spacer-xl: 70px;
-  --spacer-2xl: 140px;
+  --spacer-xl: 40px;
+  --spacer-2xl: 100px;
 }}
 
 @media (max-width: 700px) {

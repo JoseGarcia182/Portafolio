@@ -1,9 +1,3 @@
-# Domestika 11ty
-
-A minimal 11ty starting point.
-
-## Getting Started
-
 Install all dependencies using npm:
 
 ```
