@@ -10,6 +10,7 @@
     margin: 0 auto;
     height: 100vh;
     margin-bottom: var(--spacer-xl);
+    z-index: 20;
   }
   
   .containerPortada {
@@ -17,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 20;
   }
   
   .imgPortada {
@@ -29,40 +31,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   
   .imgPortada img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: 400;
   }
   
   .textoPortada h1,
   .textoPortada p {
+    position: relative;
     font-weight: bold;
     line-height: 1.4;
     font-size: var(--text-jumbo);
     translate: -100px;
+    z-index: 1000;
   }     
 
   .imgPortada::before {
     content: "";
     position: absolute;
-    top: 90px;
+    min-width: 450px;   
+    width: 40%;
     left: -10px;
-    width: 500px;
-    height: 500px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
     background-color: var(--color-tittles);
     border-radius: 50%;
-    z-index: -1;
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    z-index: 0;
   }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .imgPortada::before {
+      display: none;
+     
+    }
+  } 
   
   .cursor {
     display: inline-block;
     color: var(--color-tittles);
     animation: blink 0.7s infinite;
     font-weight: bold;
+    z-index: 20;
   }
   
   @keyframes blink {
@@ -130,5 +145,11 @@
     z-index: -1;
     opacity: 0.5;
   }
+  .imgPortada::before {
+    display: none;
+  }
 
 }
+
+
+

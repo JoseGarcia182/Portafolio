@@ -39,10 +39,8 @@
 @media(max-width: 900px){
 
   .navbar{
-    
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    justify-content: center;
     margin-left: 0px;
   }
 
