@@ -1,7 +1,27 @@
 .aboutSection{
     margin-bottom: var(--spacer-2xl);
+    background-color: #5C6B68;
+    padding: 20px;
+    border-radius: 15px;
 }
 
+
+.contenido{
+    
+}
+
+.cicle{
+    margin: 0 10px 0 0;
+    width: 30%;
+    float: left;
+    shape-outside: circle(50%);
+}
+
+.cicle img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
 
 #about{
     font-size: var(--text-subheader);

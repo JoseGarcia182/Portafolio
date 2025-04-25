@@ -1,6 +1,5 @@
 .inicio{
   margin-bottom: var(--spacer-2xl);
-
 }
 
 
@@ -51,7 +50,7 @@
     z-index: 1000;
   }     
 
-  .imgPortada::before {
+  /* .imgPortada::before {
     content: "";
     position: absolute;
     min-width: 450px;   
@@ -61,9 +60,9 @@
     overflow: hidden;
     background-color: var(--color-tittles);
     border-radius: 50%;
-    /* opacity: 0.5; */
+     opacity: 0.5; 
     z-index: 0;
-  }
+  } */
 
   @media (min-width: 1200px) and (max-width: 1400px) {
     .imgPortada::before {

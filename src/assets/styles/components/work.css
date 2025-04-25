@@ -1,7 +1,6 @@
 .workSection {
     background-color: var(--color-background);
     margin-bottom: var(--spacer-2xl);
-    
   }
   
   .workSection h2 {
@@ -12,9 +11,6 @@
     margin-bottom: var(--spacer-l);
   }
   
-  .proyectos{
-    
-  }
   
   .proyectos a {
     overflow: hidden;

@@ -1,4 +1,5 @@
 #contact{
+color: #e2e21a;
 scroll-margin-top: 50px;
 font-size: var(--text-subheader);
 text-align: center;
@@ -40,7 +41,7 @@ margin-bottom: var(--spacer-l);
   font-weight: bold;
   font-size: var(--text-base);
   margin-bottom: 5px;
-  color: #003366; /* Azul oscuro */
+  color: #e2e21a; /* Azul oscuro */
 }
 
 .form-group input,
@@ -67,8 +68,8 @@ margin-bottom: var(--spacer-l);
 
 /* Botón de enviar */
 .sendButton {
-  background-color: #003366;
-  color: white;
+  background-color: #e2e21a;
+  color: rgb(41, 40, 40);
   font-size: 18px;
   padding: 12px 30px;
   border: none;
@@ -78,5 +79,5 @@ margin-bottom: var(--spacer-l);
 }
 
 .sendButton:hover {
-  background-color: #00509e;
+  background-color: #575717;
 }
