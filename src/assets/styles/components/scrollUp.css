@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: #50e3c2;
+    background-color: #e2e21a;
     color: white;
     font-size: 24px;
     padding: 5px 16px;
@@ -16,7 +16,7 @@
   }
   
   .scrollToTop:hover {
-    background-color: #36bca1;
+    background-color: #575717;
   }
   
   .scrollToTop.visible {
